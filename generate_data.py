@@ -23,35 +23,35 @@ import pandas as pd
 np.random.seed(42)
 
 # ---------------------------------------------------------------
-# STORES  (real location names, simulated performance)
+# STORES  (anonymized labels, simulated performance)
 # ---------------------------------------------------------------
 STORES = {
-    "Newark": {"daily_traffic": 95, "skill": 1.10},
-    "Main":   {"daily_traffic": 130, "skill": 1.00},
-    "G1":     {"daily_traffic": 70, "skill": 0.95},
-    "Lyell":  {"daily_traffic": 55, "skill": 0.90},
-    "Lake":   {"daily_traffic": 80, "skill": 1.05},
-    "Dewey":  {"daily_traffic": 48, "skill": 0.85},
+    "Store A": {"daily_traffic": 95, "skill": 1.10},
+    "Store B": {"daily_traffic": 130, "skill": 1.00},
+    "Store C": {"daily_traffic": 70, "skill": 0.95},
+    "Store D": {"daily_traffic": 55, "skill": 0.90},
+    "Store E": {"daily_traffic": 80, "skill": 1.05},
+    "Store F": {"daily_traffic": 48, "skill": 0.85},
 }
 
 # ---------------------------------------------------------------
 # REPS  (realistic names; each has a personal skill multiplier)
 # ---------------------------------------------------------------
 REPS = {
-    "Jasmine": {"store": "Newark", "skill": 1.20},
-    "Carlos":  {"store": "Newark", "skill": 0.95},
-    "Tina":    {"store": "Main",   "skill": 1.05},
-    "Marcus":  {"store": "Main",   "skill": 0.80},   # coaching target
-    "Priya":   {"store": "G1",     "skill": 1.00},
-    "Devon":   {"store": "Lyell",  "skill": 0.88},
-    "Sofia":   {"store": "Lake",   "skill": 1.10},
-    "Andre":   {"store": "Dewey",  "skill": 0.85},
+    "Jasmine": {"store": "Store A", "skill": 1.20},
+    "Carlos":  {"store": "Store A", "skill": 0.95},
+    "Tina":    {"store": "Store B", "skill": 1.05},
+    "Marcus":  {"store": "Store B", "skill": 0.80},   # coaching target
+    "Priya":   {"store": "Store C", "skill": 1.00},
+    "Devon":   {"store": "Store D", "skill": 0.88},
+    "Sofia":   {"store": "Store E", "skill": 1.10},
+    "Andre":   {"store": "Store F", "skill": 0.85},
 }
 
 # Monthly activation (voice-line) goals per store.
 STORE_GOALS = {
-    "Newark": 340, "Main": 430, "G1": 230,
-    "Lyell": 175, "Lake": 290, "Dewey": 150,
+    "Store A": 340, "Store B": 430, "Store C": 230,
+    "Store D": 175, "Store E": 290, "Store F": 150,
 }
 
 # Rate plans (T-Mobile / Metro style) with monthly revenue and likelihood.
