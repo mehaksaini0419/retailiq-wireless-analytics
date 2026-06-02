@@ -1,5 +1,8 @@
 # 📡 RetailIQ — Metro by T-Mobile Store Performance & Revenue Intelligence Engine
 
+
+https://github.com/user-attachments/assets/b1f83d5a-ba75-4172-9f58-c1d64bb6e871
+
 A Python analytics engine that turns wireless retail transaction data into
 manager-ready intelligence, built around the **five core Metro sales targets**:
 
