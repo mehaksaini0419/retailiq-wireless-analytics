@@ -1,4 +1,4 @@
-# 📡 RetailIQ — Metro by T-Mobile Store Performance & Revenue Intelligence Engine
+# 📡 RetailIQ — Wireless Retail Store Performance & Revenue Intelligence Engine
 
 
 https://github.com/user-attachments/assets/b1f83d5a-ba75-4172-9f58-c1d64bb6e871
