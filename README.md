@@ -52,9 +52,3 @@ Python | pandas | NumPy | scikit-learn (Random Forest) | Plotly | Streamlit
 
 ---
 
-## Resume bullet points
-
-- Built **RetailIQ**, a Python retail-analytics engine (pandas, scikit-learn, Streamlit, Plotly) modeling Metro by T-Mobile store operations across the five core sales targets (Magenta migrations, voice/tablet lines, Home Internet, P360 insurance).
-- Trained a **Random Forest model (AUC ~0.65)** to predict accessory-attach likelihood per transaction, surfacing device price and customer demographics as the strongest sales drivers.
-- Quantified **$K/month recoverable revenue** from below-median accessory-attach rates and built a named-rep coaching scorecard flagging the highest-ROI coaching target.
-- Developed **pace-to-goal forecasting** and **traffic-normalized store benchmarking** to replace misleading raw-sales rankings and enable mid-month course-correction.
